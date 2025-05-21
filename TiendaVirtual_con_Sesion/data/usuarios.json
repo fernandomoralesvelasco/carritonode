@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "nombre": "Admin",
+    "email": "admin@example.com",
+    "password": "$2a$10$N9qo8uLOickgx2ZMRZoMy.MrYV7ZRbjY6Z7JYV7JYV7JYV7JYV7JY",
+    "rol": "admin"
+  },
+  {
+    "id": "2",
+    "nombre": "jonathan",
+    "email": "jonathan@example.com",
+    "password": "$2a$10$N9qo8uLOickgx2ZMRZoMy.MrYV7ZRbjY6Z7JYV7JYV7JYV7JYV7JY",
+    "rol": "usuario"
+  },
+  {
+    "id": "1746699141728",
+    "nombre": "Jonathan Córdoba",
+    "email": "jonathanvcc@gmail.com",
+    "password": "$2b$10$nwdv59PowfL64Me5K2xyY.T8Cm1/ZcxYYLaBtqp9CLUMTWJSuO4/G",
+    "rol": "usuario"
+  },
+  {
+    "id": "1746699396526",
+    "nombre": "Juan Pablo",
+    "email": "juan@hotmail.com",
+    "password": "$2b$10$.Y4sx1lsgjopdTk22s4q7./itSi2nFGbJRxsuzCMRh7ZrbwxSsKIO",
+    "rol": "usuario"
+  }
+]

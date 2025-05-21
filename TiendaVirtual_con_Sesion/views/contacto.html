@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imagenes</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="/images/logo.jpg" alt="Logo de la FES" title="FES Acatlán">
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="/productos.html">Productos</a></li>
+            <li><a href="#">Carrito</a></li>
+            <li id="link-login"><a href="/login.html">Iniciar Sesión</a></li>
+            <li id="link-registrar"><a href="/registrar.html">Registrar</a></li>
+            <li id="link-admin" style="display: none"><a href="/admin.html">Admin</a></li>
+            <li id="link-logout" style="display: none"><a>Cerrar Sesión</a></li>  
+            <li id="saludo-usuario" style="display: none"><span></span></li>    
+        </ul>
+    </nav>
+    <header class="header">
+        <h1>Tienda Virtual - Mi Acatlán</h1>
+    </header>
+    <main class="galeria">
+        <div class="contenedor-img">
+            <img title="Paisaje 1" src="/images/naturaleza1.jpeg" alt="Naturaleza 1">
+            <img src="/images/naturaleza2.jpeg" alt="Naturaleza 2">
+            <img src="/images/naturaleza3.webp" alt="Naturaleza 3">
+            <img src="/images/naturaleza4.jpg" alt="Naturaleza 4">
+            <img src="/images/naturaleza5.jpeg" alt="Naturaleza 5">
+            <img src="/images/naturaleza6.webp" alt="Naturaleza 6">
+        </div>
+    </main>
+    <footer>
+        <h2>Contacto</h2>
+        <form action="#" class="forma-contacto">
+            <div class="fila">
+                <div class="input-grupo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div class="input-grupo">
+                    <label for="nombre">E-mail:</label>
+                    <input type="email" name="correo" id="correo" required>
+                </div>
+            </div>
+            <div class="forma-grupo">
+                <label for="pais">Seleccione Pais:</label>
+                <select name="pais" id="pais">
+                    <option value="mexico">México</option>
+                    <option value="usa">Estados Unidos</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <div class="forma-grupo">
+                <label for="comentario">Ingrese comentario:</label>
+                <textarea name="comentario" id="comentario" row="10" cols="30"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>&copy; 2025 - Galería FES Acatlán</p>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="/js/autentificacion.js"></script>
+</body>
+</html>

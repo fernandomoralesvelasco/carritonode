@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="/images/logo.jpg" alt="Logo de la FES" title="FES Acatlán">
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="/productos.html">Productos</a></li>
+            <li><a href="#">Carrito</a></li>
+            <li id="link-login"><a href="/login.html">Iniciar Sesión</a></li>
+            <li id="link-registrar"><a href="/registrar.html">Registrar</a></li>
+            <li id="link-admin" style="display: none"><a href="/admin.html">Admin</a></li>
+            <li id="link-logout" style="display: none"><a>Cerrar Sesión</a></li>  
+            <li id="saludo-usuario" style="display: none"><span></span></li>    
+        </ul>
+    </nav>
+    <header class="header">
+        <h1>Tienda Virtual - Mi Acatlán</h1>
+    </header>
+    <main class="main-productos">
+        <section class="contenedor-productos">
+            <div id="lista-productos" class="contenedor-producto">
+                <!-- Los productos se cargarán dinámicamente -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Galería FES Acatlán</p>
+    </footer>
+    <script type="module" src="/js/productos.js"></script>
+    <script type="module" src="/js/autentificacion.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
